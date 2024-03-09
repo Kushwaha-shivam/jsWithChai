@@ -1,0 +1,34 @@
+// +++++++++++  Very Important for Interviews ++++++++++++ 
+
+<===========  JavaScript Execution Context ============> 
+Iska matlab hai ki JavaScript kaise code ko execute/run krti hai..
+
+Jab JavaScript ko koi bhi code file execute karne ke liye di jati hai to wo kuch iss tarah execute krti hai --> 
+
+1- Global Execution Context
+2- Function/Functional Execution Context
+
+
+++++++++++++++   1-Global Execution Context ++++++++++++++ 
+
+This is the outermost context and it's automatically created when your script is run.
+It includes all the code that is not inside any function.
+There's only one global execution context throughout the entire runtime of your script.
+
+
+
+++++++++++++++   2-Function Execution Context ++++++++++++++ 
+
+Every time a function is called, a new execution context is created for that function.
+Each function has its own scope (lexical environment) and variable environment.
+When a function finishes executing, its execution context is popped off the execution stack.
+
+
+
+++++++++++++++  Execution Stack/ Call Stack +++++++++++++++ 
+
+JavaScript uses something called the "call stack" to manage execution contexts.
+When your script starts running, the global execution context is pushed onto the call stack.
+When a function is called, its execution context is pushed onto the stack on top of the current execution context.
+When a function finishes executing, its execution context is popped off the stack, and control returns to the previous execution context.
+
