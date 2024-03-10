@@ -25,3 +25,11 @@ else if (balance >= 1000) {
 else {
     console.log("Koi bhi condition match nhi hui hai")
 }
+
+
+// ++++++++++++  Important topic ---> Ternary Operator ++++++++++++ 
+// it is basically used in condition cases like if else 
+
+const priceOfMovieTicket = 500
+
+priceOfMovieTicket > 100 ? console.log("Yes, price of movie tickes is greater than 100") : console.log("No, price of movie ticket is not greater than 100")
