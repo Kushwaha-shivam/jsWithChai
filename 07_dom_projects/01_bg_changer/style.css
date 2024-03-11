@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 50%;
+    height: 30vh;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#black {
+    color: white;
+    background-color: black;
+}
