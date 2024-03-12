@@ -8,9 +8,9 @@ calculateBtn.addEventListener('click', (event) => {
     let result = document.getElementById('result')
     let bmiStatus = document.getElementById('bmi-status')
 
-    if (height === "" && height < 0 && NaN(height)) {
+    if (height === "" || height < 0 || isNaN(height)) {
         result.innerHTML = "Enter a valid value of Height"
-    } else if (weight === "" && weight < 0 && NaN(weight)) {
+    } else if (weight === "" || weight < 0 || isNaN(weight)) {
         result.innerHTML = "Enter a valid value of Weight"
     }
     else {
