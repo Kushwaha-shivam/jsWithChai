@@ -106,9 +106,9 @@ consumePromiseFive()
 
 const fetchData = async () => {
     try {
-        const res = await fetch("https://dummyjson.com/todos")
-        const data = await res.json()
-        console.log(data)
+        let res = await fetch("https://dummyjson.com/todos")
+        res = await res.json()
+        console.log(res)
     } catch (error) {
         console.log(error)
     }
